@@ -1,0 +1,6 @@
+framework module Pods_MarsApiTest {
+  umbrella header "Pods-MarsApiTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

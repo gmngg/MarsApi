@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50603E882541C74E00A2EE43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603E872541C74E00A2EE43 /* AppDelegate.swift */; };
+		50603E8F2541C74E00A2EE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50603E8D2541C74E00A2EE43 /* Main.storyboard */; };
+		50603E912541C75000A2EE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50603E902541C75000A2EE43 /* Assets.xcassets */; };
+		50603E942541C75000A2EE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50603E922541C75000A2EE43 /* LaunchScreen.storyboard */; };
+		50603E9F2541C75100A2EE43 /* MarsApiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603E9E2541C75100A2EE43 /* MarsApiTestTests.swift */; };
+		50603EAA2541C75100A2EE43 /* MarsApiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603EA92541C75100A2EE43 /* MarsApiTestUITests.swift */; };
+		50603EE02541D3E300A2EE43 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603EDF2541D3E300A2EE43 /* API.swift */; };
+		50603EEF254210F000A2EE43 /* CamerasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603EEE254210F000A2EE43 /* CamerasViewController.swift */; };
+		50603F0A2542360300A2EE43 /* JSONPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F092542360300A2EE43 /* JSONPhoto.swift */; };
+		50603F122542DBF400A2EE43 /* CamerasInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F112542DBF400A2EE43 /* CamerasInteractor.swift */; };
+		50603F172542DC0600A2EE43 /* CamerasCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F162542DC0600A2EE43 /* CamerasCoordinator.swift */; };
+		50603F1C2542DC1100A2EE43 /* CamerasRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F1B2542DC1100A2EE43 /* CamerasRouter.swift */; };
+		50603F212542DC2000A2EE43 /* CamerasAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F202542DC2000A2EE43 /* CamerasAssembly.swift */; };
+		50603F262542DC3000A2EE43 /* CamerasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F252542DC3000A2EE43 /* CamerasViewModel.swift */; };
+		50603F362542DD3600A2EE43 /* CamerasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F352542DD3600A2EE43 /* CamerasCollectionViewCell.swift */; };
+		50603F3C2542E04A00A2EE43 /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F3B2542E04A00A2EE43 /* Injectable.swift */; };
+		50603F4B25430C5D00A2EE43 /* ModelDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F4A25430C5D00A2EE43 /* ModelDTO.swift */; };
+		50603F53254311EA00A2EE43 /* RequestNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F52254311EA00A2EE43 /* RequestNetwork.swift */; };
+		50603F5825431AF200A2EE43 /* NetworkServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F5725431AF200A2EE43 /* NetworkServise.swift */; };
+		50603F722545F36400A2EE43 /* ExtensionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F712545F36400A2EE43 /* ExtensionData.swift */; };
+		50603F7F25470AAD00A2EE43 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50603F7E25470AAD00A2EE43 /* File.swift */; };
+		7C476631967B5B5D6956FD56 /* Pods_MarsApiTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7200721CB0741A59DE8DAD /* Pods_MarsApiTest.framework */; };
+		8B04AD3952FF190978950A34 /* Pods_MarsApiTest_MarsApiTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD76E08BE645B662A83965B9 /* Pods_MarsApiTest_MarsApiTestUITests.framework */; };
+		E5C6C53368434B1F0A950801 /* Pods_MarsApiTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA7FDB2FD3108800542F0B3 /* Pods_MarsApiTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50603E9B2541C75100A2EE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50603E7C2541C74E00A2EE43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50603E832541C74E00A2EE43;
+			remoteInfo = MarsApiTest;
+		};
+		50603EA62541C75100A2EE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50603E7C2541C74E00A2EE43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50603E832541C74E00A2EE43;
+			remoteInfo = MarsApiTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AA7FDB2FD3108800542F0B3 /* Pods_MarsApiTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsApiTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A08B1A463A344893735BD18 /* Pods-MarsApiTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApiTestTests.release.xcconfig"; path = "Target Support Files/Pods-MarsApiTestTests/Pods-MarsApiTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A05067E305C7B0F802005ED /* Pods-MarsApiTest-MarsApiTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApiTest-MarsApiTestUITests.release.xcconfig"; path = "Target Support Files/Pods-MarsApiTest-MarsApiTestUITests/Pods-MarsApiTest-MarsApiTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50603E842541C74E00A2EE43 /* MarsApiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsApiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50603E872541C74E00A2EE43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50603E8E2541C74E00A2EE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50603E902541C75000A2EE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50603E932541C75000A2EE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50603E952541C75000A2EE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50603E9A2541C75100A2EE43 /* MarsApiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsApiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50603E9E2541C75100A2EE43 /* MarsApiTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsApiTestTests.swift; sourceTree = "<group>"; };
+		50603EA02541C75100A2EE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50603EA52541C75100A2EE43 /* MarsApiTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsApiTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50603EA92541C75100A2EE43 /* MarsApiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsApiTestUITests.swift; sourceTree = "<group>"; };
+		50603EAB2541C75100A2EE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50603EDF2541D3E300A2EE43 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		50603EEE254210F000A2EE43 /* CamerasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasViewController.swift; sourceTree = "<group>"; };
+		50603F092542360300A2EE43 /* JSONPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPhoto.swift; sourceTree = "<group>"; };
+		50603F112542DBF400A2EE43 /* CamerasInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasInteractor.swift; sourceTree = "<group>"; };
+		50603F162542DC0600A2EE43 /* CamerasCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasCoordinator.swift; sourceTree = "<group>"; };
+		50603F1B2542DC1100A2EE43 /* CamerasRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasRouter.swift; sourceTree = "<group>"; };
+		50603F202542DC2000A2EE43 /* CamerasAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasAssembly.swift; sourceTree = "<group>"; };
+		50603F252542DC3000A2EE43 /* CamerasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasViewModel.swift; sourceTree = "<group>"; };
+		50603F352542DD3600A2EE43 /* CamerasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasCollectionViewCell.swift; sourceTree = "<group>"; };
+		50603F3B2542E04A00A2EE43 /* Injectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
+		50603F4A25430C5D00A2EE43 /* ModelDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDTO.swift; sourceTree = "<group>"; };
+		50603F52254311EA00A2EE43 /* RequestNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestNetwork.swift; sourceTree = "<group>"; };
+		50603F5725431AF200A2EE43 /* NetworkServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServise.swift; sourceTree = "<group>"; };
+		50603F712545F36400A2EE43 /* ExtensionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionData.swift; sourceTree = "<group>"; };
+		50603F7E25470AAD00A2EE43 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5FADC4A87FC03E2DB692900C /* Pods-MarsApiTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApiTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MarsApiTestTests/Pods-MarsApiTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD76E08BE645B662A83965B9 /* Pods_MarsApiTest_MarsApiTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsApiTest_MarsApiTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F5ABF5591B3CCBC9F47A8E /* Pods-MarsApiTest-MarsApiTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApiTest-MarsApiTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarsApiTest-MarsApiTestUITests/Pods-MarsApiTest-MarsApiTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E55E1CE31D2F744DF80F0833 /* Pods-MarsApiTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApiTest.release.xcconfig"; path = "Target Support Files/Pods-MarsApiTest/Pods-MarsApiTest.release.xcconfig"; sourceTree = "<group>"; };
+		E6EBC61FEE117846FF5326BA /* Pods-MarsApiTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApiTest.debug.xcconfig"; path = "Target Support Files/Pods-MarsApiTest/Pods-MarsApiTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7200721CB0741A59DE8DAD /* Pods_MarsApiTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsApiTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50603E812541C74E00A2EE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C476631967B5B5D6956FD56 /* Pods_MarsApiTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50603E972541C75100A2EE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C6C53368434B1F0A950801 /* Pods_MarsApiTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50603EA22541C75100A2EE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B04AD3952FF190978950A34 /* Pods_MarsApiTest_MarsApiTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50603E7B2541C74E00A2EE43 = {
+			isa = PBXGroup;
+			children = (
+				50603E862541C74E00A2EE43 /* MarsApiTest */,
+				50603E9D2541C75100A2EE43 /* MarsApiTestTests */,
+				50603EA82541C75100A2EE43 /* MarsApiTestUITests */,
+				50603E852541C74E00A2EE43 /* Products */,
+				958FD712AF0FFFFB52C7D4CA /* Pods */,
+				D373E419B5EC1E7A442E12B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50603E852541C74E00A2EE43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50603E842541C74E00A2EE43 /* MarsApiTest.app */,
+				50603E9A2541C75100A2EE43 /* MarsApiTestTests.xctest */,
+				50603EA52541C75100A2EE43 /* MarsApiTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50603E862541C74E00A2EE43 /* MarsApiTest */ = {
+			isa = PBXGroup;
+			children = (
+				50603F702545F35400A2EE43 /* Source */,
+				50603ED82541CF2A00A2EE43 /* NetworkService */,
+				50603EBC2541C91800A2EE43 /* Storyboard */,
+				50603EBB2541C90900A2EE43 /* AppDelegate+Info.plist */,
+				50603EBA2541C8FF00A2EE43 /* Moduls */,
+			);
+			path = MarsApiTest;
+			sourceTree = "<group>";
+		};
+		50603E9D2541C75100A2EE43 /* MarsApiTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				50603E9E2541C75100A2EE43 /* MarsApiTestTests.swift */,
+				50603EA02541C75100A2EE43 /* Info.plist */,
+			);
+			path = MarsApiTestTests;
+			sourceTree = "<group>";
+		};
+		50603EA82541C75100A2EE43 /* MarsApiTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50603EA92541C75100A2EE43 /* MarsApiTestUITests.swift */,
+				50603EAB2541C75100A2EE43 /* Info.plist */,
+			);
+			path = MarsApiTestUITests;
+			sourceTree = "<group>";
+		};
+		50603EBA2541C8FF00A2EE43 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				50603F4925430C4100A2EE43 /* ModelDTO */,
+				50603EFE254211F600A2EE43 /* SettingsModul */,
+				50603ED72541CEAA00A2EE43 /* CamerasModul */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		50603EBB2541C90900A2EE43 /* AppDelegate+Info.plist */ = {
+			isa = PBXGroup;
+			children = (
+				50603E872541C74E00A2EE43 /* AppDelegate.swift */,
+				50603E952541C75000A2EE43 /* Info.plist */,
+			);
+			path = "AppDelegate+Info.plist";
+			sourceTree = "<group>";
+		};
+		50603EBC2541C91800A2EE43 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				50603E922541C75000A2EE43 /* LaunchScreen.storyboard */,
+				50603E902541C75000A2EE43 /* Assets.xcassets */,
+				50603E8D2541C74E00A2EE43 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		50603ED72541CEAA00A2EE43 /* CamerasModul */ = {
+			isa = PBXGroup;
+			children = (
+				50603EDE2541CFA400A2EE43 /* CamerasAssembly */,
+				50603EDD2541CF9000A2EE43 /* CamerasRouter */,
+				50603EDB2541CF7900A2EE43 /* CamerasInteractor */,
+				50603EDC2541CF8300A2EE43 /* CamerasCoordinator */,
+				50603EFA2542115100A2EE43 /* CamerasFullView+CamerasViewModel */,
+				50603EF92542112000A2EE43 /* CamerasMainView+ViewModel */,
+			);
+			path = CamerasModul;
+			sourceTree = "<group>";
+		};
+		50603ED82541CF2A00A2EE43 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				50603F08254235F700A2EE43 /* ItemsData */,
+				50603EDF2541D3E300A2EE43 /* API.swift */,
+				50603F52254311EA00A2EE43 /* RequestNetwork.swift */,
+				50603F5725431AF200A2EE43 /* NetworkServise.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		50603ED92541CF5F00A2EE43 /* CamerasViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50603EEE254210F000A2EE43 /* CamerasViewController.swift */,
+				50603F2D2542DCCB00A2EE43 /* CamerasCollectonViewCell */,
+			);
+			path = CamerasViewController;
+			sourceTree = "<group>";
+		};
+		50603EDA2541CF6B00A2EE43 /* CamerasViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50603F252542DC3000A2EE43 /* CamerasViewModel.swift */,
+			);
+			path = CamerasViewModel;
+			sourceTree = "<group>";
+		};
+		50603EDB2541CF7900A2EE43 /* CamerasInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				50603F112542DBF400A2EE43 /* CamerasInteractor.swift */,
+			);
+			path = CamerasInteractor;
+			sourceTree = "<group>";
+		};
+		50603EDC2541CF8300A2EE43 /* CamerasCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				50603F162542DC0600A2EE43 /* CamerasCoordinator.swift */,
+			);
+			path = CamerasCoordinator;
+			sourceTree = "<group>";
+		};
+		50603EDD2541CF9000A2EE43 /* CamerasRouter */ = {
+			isa = PBXGroup;
+			children = (
+				50603F1B2542DC1100A2EE43 /* CamerasRouter.swift */,
+			);
+			path = CamerasRouter;
+			sourceTree = "<group>";
+		};
+		50603EDE2541CFA400A2EE43 /* CamerasAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				50603F202542DC2000A2EE43 /* CamerasAssembly.swift */,
+			);
+			path = CamerasAssembly;
+			sourceTree = "<group>";
+		};
+		50603EF92542112000A2EE43 /* CamerasMainView+ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50603EDA2541CF6B00A2EE43 /* CamerasViewModel */,
+				50603ED92541CF5F00A2EE43 /* CamerasViewController */,
+			);
+			path = "CamerasMainView+ViewModel";
+			sourceTree = "<group>";
+		};
+		50603EFA2542115100A2EE43 /* CamerasFullView+CamerasViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50603F7A25463EDF00A2EE43 /* CamerasFullViewController */,
+				50603F7925463EC400A2EE43 /* CamerasFullViewModel */,
+			);
+			path = "CamerasFullView+CamerasViewModel";
+			sourceTree = "<group>";
+		};
+		50603EFE254211F600A2EE43 /* SettingsModul */ = {
+			isa = PBXGroup;
+			children = (
+				50603F6C25447E3000A2EE43 /* SettingsViewModel */,
+				50603F6B25447E1F00A2EE43 /* SettingsViewController */,
+			);
+			path = SettingsModul;
+			sourceTree = "<group>";
+		};
+		50603F08254235F700A2EE43 /* ItemsData */ = {
+			isa = PBXGroup;
+			children = (
+				50603F092542360300A2EE43 /* JSONPhoto.swift */,
+			);
+			path = ItemsData;
+			sourceTree = "<group>";
+		};
+		50603F2D2542DCCB00A2EE43 /* CamerasCollectonViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				50603F352542DD3600A2EE43 /* CamerasCollectionViewCell.swift */,
+				50603F7E25470AAD00A2EE43 /* File.swift */,
+			);
+			path = CamerasCollectonViewCell;
+			sourceTree = "<group>";
+		};
+		50603F3A2542E03B00A2EE43 /* Injectable */ = {
+			isa = PBXGroup;
+			children = (
+				50603F3B2542E04A00A2EE43 /* Injectable.swift */,
+			);
+			path = Injectable;
+			sourceTree = "<group>";
+		};
+		50603F4925430C4100A2EE43 /* ModelDTO */ = {
+			isa = PBXGroup;
+			children = (
+				50603F4A25430C5D00A2EE43 /* ModelDTO.swift */,
+			);
+			path = ModelDTO;
+			sourceTree = "<group>";
+		};
+		50603F6B25447E1F00A2EE43 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		50603F6C25447E3000A2EE43 /* SettingsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingsViewModel;
+			sourceTree = "<group>";
+		};
+		50603F702545F35400A2EE43 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				50603F3A2542E03B00A2EE43 /* Injectable */,
+				50603F712545F36400A2EE43 /* ExtensionData.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		50603F7925463EC400A2EE43 /* CamerasFullViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CamerasFullViewModel;
+			sourceTree = "<group>";
+		};
+		50603F7A25463EDF00A2EE43 /* CamerasFullViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CamerasFullViewController;
+			sourceTree = "<group>";
+		};
+		958FD712AF0FFFFB52C7D4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBC61FEE117846FF5326BA /* Pods-MarsApiTest.debug.xcconfig */,
+				E55E1CE31D2F744DF80F0833 /* Pods-MarsApiTest.release.xcconfig */,
+				E0F5ABF5591B3CCBC9F47A8E /* Pods-MarsApiTest-MarsApiTestUITests.debug.xcconfig */,
+				4A05067E305C7B0F802005ED /* Pods-MarsApiTest-MarsApiTestUITests.release.xcconfig */,
+				5FADC4A87FC03E2DB692900C /* Pods-MarsApiTestTests.debug.xcconfig */,
+				3A08B1A463A344893735BD18 /* Pods-MarsApiTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D373E419B5EC1E7A442E12B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7200721CB0741A59DE8DAD /* Pods_MarsApiTest.framework */,
+				CD76E08BE645B662A83965B9 /* Pods_MarsApiTest_MarsApiTestUITests.framework */,
+				2AA7FDB2FD3108800542F0B3 /* Pods_MarsApiTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50603E832541C74E00A2EE43 /* MarsApiTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50603EAE2541C75100A2EE43 /* Build configuration list for PBXNativeTarget "MarsApiTest" */;
+			buildPhases = (
+				E7F7F469D78609A3155609A7 /* [CP] Check Pods Manifest.lock */,
+				50603E802541C74E00A2EE43 /* Sources */,
+				50603E812541C74E00A2EE43 /* Frameworks */,
+				50603E822541C74E00A2EE43 /* Resources */,
+				50603ED32541CD8300A2EE43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsApiTest;
+			productName = MarsApiTest;
+			productReference = 50603E842541C74E00A2EE43 /* MarsApiTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50603E992541C75100A2EE43 /* MarsApiTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50603EB12541C75100A2EE43 /* Build configuration list for PBXNativeTarget "MarsApiTestTests" */;
+			buildPhases = (
+				A09AA2108F56668D3B9B896E /* [CP] Check Pods Manifest.lock */,
+				50603E962541C75100A2EE43 /* Sources */,
+				50603E972541C75100A2EE43 /* Frameworks */,
+				50603E982541C75100A2EE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50603E9C2541C75100A2EE43 /* PBXTargetDependency */,
+			);
+			name = MarsApiTestTests;
+			productName = MarsApiTestTests;
+			productReference = 50603E9A2541C75100A2EE43 /* MarsApiTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50603EA42541C75100A2EE43 /* MarsApiTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50603EB42541C75100A2EE43 /* Build configuration list for PBXNativeTarget "MarsApiTestUITests" */;
+			buildPhases = (
+				827654CBBA87E43EABAB47CE /* [CP] Check Pods Manifest.lock */,
+				50603EA12541C75100A2EE43 /* Sources */,
+				50603EA22541C75100A2EE43 /* Frameworks */,
+				50603EA32541C75100A2EE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50603EA72541C75100A2EE43 /* PBXTargetDependency */,
+			);
+			name = MarsApiTestUITests;
+			productName = MarsApiTestUITests;
+			productReference = 50603EA52541C75100A2EE43 /* MarsApiTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50603E7C2541C74E00A2EE43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					50603E832541C74E00A2EE43 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					50603E992541C75100A2EE43 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 50603E832541C74E00A2EE43;
+					};
+					50603EA42541C75100A2EE43 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 50603E832541C74E00A2EE43;
+					};
+				};
+			};
+			buildConfigurationList = 50603E7F2541C74E00A2EE43 /* Build configuration list for PBXProject "MarsApiTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50603E7B2541C74E00A2EE43;
+			productRefGroup = 50603E852541C74E00A2EE43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50603E832541C74E00A2EE43 /* MarsApiTest */,
+				50603E992541C75100A2EE43 /* MarsApiTestTests */,
+				50603EA42541C75100A2EE43 /* MarsApiTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50603E822541C74E00A2EE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50603E942541C75000A2EE43 /* LaunchScreen.storyboard in Resources */,
+				50603E912541C75000A2EE43 /* Assets.xcassets in Resources */,
+				50603E8F2541C74E00A2EE43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50603E982541C75100A2EE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50603EA32541C75100A2EE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50603ED32541CD8300A2EE43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		827654CBBA87E43EABAB47CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsApiTest-MarsApiTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09AA2108F56668D3B9B896E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsApiTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F7F469D78609A3155609A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsApiTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50603E802541C74E00A2EE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50603F3C2542E04A00A2EE43 /* Injectable.swift in Sources */,
+				50603F53254311EA00A2EE43 /* RequestNetwork.swift in Sources */,
+				50603E882541C74E00A2EE43 /* AppDelegate.swift in Sources */,
+				50603F0A2542360300A2EE43 /* JSONPhoto.swift in Sources */,
+				50603F1C2542DC1100A2EE43 /* CamerasRouter.swift in Sources */,
+				50603F7F25470AAD00A2EE43 /* File.swift in Sources */,
+				50603F262542DC3000A2EE43 /* CamerasViewModel.swift in Sources */,
+				50603F722545F36400A2EE43 /* ExtensionData.swift in Sources */,
+				50603EEF254210F000A2EE43 /* CamerasViewController.swift in Sources */,
+				50603F212542DC2000A2EE43 /* CamerasAssembly.swift in Sources */,
+				50603F172542DC0600A2EE43 /* CamerasCoordinator.swift in Sources */,
+				50603F362542DD3600A2EE43 /* CamerasCollectionViewCell.swift in Sources */,
+				50603F4B25430C5D00A2EE43 /* ModelDTO.swift in Sources */,
+				50603F122542DBF400A2EE43 /* CamerasInteractor.swift in Sources */,
+				50603F5825431AF200A2EE43 /* NetworkServise.swift in Sources */,
+				50603EE02541D3E300A2EE43 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50603E962541C75100A2EE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50603E9F2541C75100A2EE43 /* MarsApiTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50603EA12541C75100A2EE43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50603EAA2541C75100A2EE43 /* MarsApiTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50603E9C2541C75100A2EE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50603E832541C74E00A2EE43 /* MarsApiTest */;
+			targetProxy = 50603E9B2541C75100A2EE43 /* PBXContainerItemProxy */;
+		};
+		50603EA72541C75100A2EE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50603E832541C74E00A2EE43 /* MarsApiTest */;
+			targetProxy = 50603EA62541C75100A2EE43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50603E8D2541C74E00A2EE43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50603E8E2541C74E00A2EE43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50603E922541C75000A2EE43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50603E932541C75000A2EE43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50603EAC2541C75100A2EE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50603EAD2541C75100A2EE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50603EAF2541C75100A2EE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EBC61FEE117846FF5326BA /* Pods-MarsApiTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T5DL78TW;
+				INFOPLIST_FILE = "MarsApiTest/AppDelegate+Info.plist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmn-gg.MarsApiTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50603EB02541C75100A2EE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55E1CE31D2F744DF80F0833 /* Pods-MarsApiTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T5DL78TW;
+				INFOPLIST_FILE = "MarsApiTest/AppDelegate+Info.plist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmn-gg.MarsApiTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50603EB22541C75100A2EE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FADC4A87FC03E2DB692900C /* Pods-MarsApiTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T5DL78TW;
+				INFOPLIST_FILE = MarsApiTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmn-gg.MarsApiTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsApiTest.app/MarsApiTest";
+			};
+			name = Debug;
+		};
+		50603EB32541C75100A2EE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A08B1A463A344893735BD18 /* Pods-MarsApiTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T5DL78TW;
+				INFOPLIST_FILE = MarsApiTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmn-gg.MarsApiTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsApiTest.app/MarsApiTest";
+			};
+			name = Release;
+		};
+		50603EB52541C75100A2EE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F5ABF5591B3CCBC9F47A8E /* Pods-MarsApiTest-MarsApiTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T5DL78TW;
+				INFOPLIST_FILE = MarsApiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmn-gg.MarsApiTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsApiTest;
+			};
+			name = Debug;
+		};
+		50603EB62541C75100A2EE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A05067E305C7B0F802005ED /* Pods-MarsApiTest-MarsApiTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84T5DL78TW;
+				INFOPLIST_FILE = MarsApiTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gmn-gg.MarsApiTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsApiTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50603E7F2541C74E00A2EE43 /* Build configuration list for PBXProject "MarsApiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50603EAC2541C75100A2EE43 /* Debug */,
+				50603EAD2541C75100A2EE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50603EAE2541C75100A2EE43 /* Build configuration list for PBXNativeTarget "MarsApiTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50603EAF2541C75100A2EE43 /* Debug */,
+				50603EB02541C75100A2EE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50603EB12541C75100A2EE43 /* Build configuration list for PBXNativeTarget "MarsApiTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50603EB22541C75100A2EE43 /* Debug */,
+				50603EB32541C75100A2EE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50603EB42541C75100A2EE43 /* Build configuration list for PBXNativeTarget "MarsApiTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50603EB52541C75100A2EE43 /* Debug */,
+				50603EB62541C75100A2EE43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50603E7C2541C74E00A2EE43 /* Project object */;
+}
